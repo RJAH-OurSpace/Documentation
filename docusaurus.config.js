@@ -23,12 +23,10 @@ const config = {
   url: 'https://rjah-ourspace.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  baseUrl: '/documentation/',
   organizationName: 'RJAH-OurSpace', // Usually your GitHub org/user name.
-  projectName: 'rjah-ourspace.github.io', // Usually your repo name.
+  projectName: 'documentation', // Usually your repo name.
+  deploymentBranch: "main",
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
