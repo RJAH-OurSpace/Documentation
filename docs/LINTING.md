@@ -1,4 +1,9 @@
-# ✨ Linting & Formatting Setup for Our-Space WordPress Project
+---
+sidebar_position: 4
+title: Linting Process
+---
+
+# Linting & Formatting Setup
 
 This project uses a linting setup to ensure all PHP, JavaScript, and CSS code follows the [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/).
 
@@ -9,20 +14,20 @@ Linting helps us:
 
 ---
 
-## 📦 Tools We're Using
+## Tools We're Using
 
-### ✅ PHP
+### PHP
 - **[PHP_CodeSniffer (phpcs)](https://github.com/squizlabs/PHP_CodeSniffer)** — detects violations of coding standards
 - **[phpcbf](https://github.com/squizlabs/PHP_CodeSniffer)** — auto-fixes fixable violations
 - **[WordPress Coding Standards (WPCS)](https://github.com/WordPress/WordPress-Coding-Standards)** — set of sniffs for WordPress PHP code
 - **[PHP Stubs for WordPress](https://github.com/php-stubs/wordpress-stubs)** — allows VS Code to autocomplete and understand WordPress functions
 
-### ✅ JavaScript & CSS (coming soon)
+### JavaScript & CSS (coming soon)
 We may expand linting to JS/CSS via ESLint and Stylelint. Stay tuned!
 
 ---
 
-## 🖥️ Developer Requirements
+## Developer Requirements
 
 To run linting locally, you’ll need:
 
@@ -33,15 +38,15 @@ To run linting locally, you’ll need:
 
 ---
 
-## 🔧 Setting It Up in VS Code
+## Setting It Up in VS Code
 
-### 🧩 Required Extensions
+### Required Extensions
 
 1. **PHP Intelephense**
 2. **PHP CodeSniffer** (by Ioannis Kappas)
 3. *(optional)* **EditorConfig for VS Code**
 
-### 📁 Project Folder Structure
+### Project Folder Structure
 
 ```bash
 .
@@ -55,9 +60,7 @@ To run linting locally, you’ll need:
 ├── functions.php
 └── ...
 ```
-
-
-### ⚙️ VS Code `.vscode/settings.json`
+### VS Code `.vscode/settings.json`
 
 ```json
 {
@@ -76,11 +79,11 @@ To run linting locally, you’ll need:
 }
 ```
 
-### 🧠 Important
+### Important
 Copy the file `vendor/php-stubs/wordpress-stubs/wordpress-stubs.php` to a local folder called `stubs/` and name it `wordpress.php`
 This enables Intelephense to provide autocomplete and stop marking WordPress functions as undefined.
 
-### 🚀 Running Lint Checks
+### Running Lint Checks
 ✅ From the Terminal
 
 Lint the whole project:
@@ -109,7 +112,7 @@ vendor\bin\phpcs path/to/your/file.php
 
 You can also run composer lint or composer fix if those scripts are defined in composer.json.
 
-### ✅ From VS Code
+### From VS Code
 Linting runs automatically on open/save via PHP CodeSniffer
 
 You can run a task to auto-fix:
@@ -118,15 +121,14 @@ Press Ctrl + Shift + B
 
 Select Fix PHP with phpcbf (if configured in tasks.json)
 
-### 🔐 Git Ignore
+### Git Ignore
 We do not commit vendor/ or stubs/ folders (they’re dev-time only):
 
 ```bash
 /vendor/
-/stubs/
 ```
 
-### 🧹 Other Notes
+### Other Notes
 All PHP files must use tabs for indentation, not spaces
 
 An `.editorconfig` file is included to enforce this across different editors
@@ -135,7 +137,7 @@ Final newline and LF line endings are required
 
 PHPCS follows the `WordPress-Extra` ruleset (stricter spacing, formatting rules)
 
-### ❤️ Help & Troubleshooting
+### Help & Troubleshooting
 If Intelephense still reports “undefined function” for WordPress functions:
 
 Make sure you've copied wordpress-stubs.php to stubs/wordpress.php

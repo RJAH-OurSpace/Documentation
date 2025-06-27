@@ -1,3 +1,8 @@
+---
+sidebar_position: 2
+title: Plugins
+---
+
 ### Plugins Required
 
 The theme requires the following plugins to properly function.

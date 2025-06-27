@@ -1,21 +1,26 @@
-# 🚀 Release Workflow
+---
+sidebar_position: 3
+title: Release Workflow
+---
+
+# Release Workflow
 This document outlines the steps to follow when preparing a new theme release.
 
-## 🎯 Goals
+## Goals
 - Ensure consistent quality across releases
 - Automate zipping and publishing of theme via GitHub Actions
 - Track features and fixes with clear changelogs
 
-## 🧭 Step-by-Step Workflow
+## Step-by-Step Workflow
 
-### . 📝 Create an Issue
+### 1. Create an Issue
 Create an issue to describe the planned release or feature set.
 
 - Title it like: Release: v1.2.0
 - Use the issue to track PRs, discussion, or outstanding tasks
 - Label it with release if desired
 
-### 2. 🌿 Create a Feature or Fix Branch
+### 2. Create a Feature or Fix Branch
 
 ```bash
 git checkout -b feature/amazing-new-feature
@@ -23,8 +28,8 @@ git checkout -b feature/amazing-new-feature
 
 Make your changes in `src/`, commit and push as usual.
 
-### 3. 📦 Add or Update Release Notes
-In the release-notes/ folder, create a file matching the version you plan to release:
+### 3. Add or Update Release Notes
+In the [release-notes](https://github.com/RJAH-OurSpace/Our-Space/tree/main/release-notes) folder, create a file matching the version you plan to release:
 
 ```bash
 release-notes/v1.2.0.md
@@ -38,14 +43,14 @@ release-notes/v1.2.0.md
 - 🚂 Improved train speed by 42%
 ```
 
-### 4. 🔁 Create a Pull Request
+### 4. Create a Pull Request
 Open a PR to merge your branch into main or your release branch
 
 - Link the issue (e.g. Closes #123)
 - Request review from another dev
 - Ensure checks and PHPCS pass
 
-### 5. 🏷️ Tag the Release
+### 5. Tag the Release
 Once approved and merged:
 
 ```bash
@@ -61,7 +66,7 @@ The GitHub Action will now:
 - Read release-notes/v1.2.0.md
 - Create a release and attach the zip
 
-### 6. 🎉 Verify the Release
+### 6. Verify the Release
 
 Go to the GitHub Releases page and confirm:
 
@@ -69,7 +74,7 @@ Go to the GitHub Releases page and confirm:
 - ✅ The changelog is accurate
 - ✅ The theme zip is downloadable
 
-### 🔁 Example Workflow Summary
+### Example Workflow Summary
 
 ```bash
 Issue → Branch → Code → Release Notes → PR → Merge → Tag → Zip & Release 🚀
