@@ -25,105 +25,114 @@ const sidebars = {
     'log-in',
     {
       type: 'category',
-      label: 'Topic Management',
-      items: [
-        'topics/what-is-a-topic',
-        'topics/creating-topic',
-        'topics/creating-child-topic'
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Content Management',
-      items: [
-        {
-          type: 'category',
-          label: 'Fitness',
-          items: [
-            'content-management/workouts',
-            'content-management/exercises',
-            'content-management/gyms',
-            'content-management/routes',
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Resources',
-          items: [
-            'content-management/links',
-            'content-management/books',
-            'content-management/podcasts',
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Organisation',
-          items: [
-            'content-management/organisations',
-            'content-management/people',
-            'content-management/staff-networks',
-          ]
-        },
-        'content-management/recipes',
-        'content-management/days-out',
-        'content-management/discount-codes',
-        'content-management/groups',
-        'content-management/events',
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Administration',
+      label: 'The Backend',
       items: [        
-        'administration/dashboard',
+        'the-backend/dashboard',
         {
           type: 'category',
-          label: 'Menu Structure',
+          label: 'Backend Menu',
           items: [
-            'administration/menu/dashboard-menu',
-            'administration/menu/analytics',
-            'administration/dashboard',
-            'administration/menu/pages',
-            'administration/menu/fitness',
-            'administration/menu/workouts',
-            'administration/menu/exercises',
-            'administration/menu/gyms',
-            'administration/menu/routes',
-            'administration/menu/posts',
-            'administration/menu/resources',
-            'administration/menu/links',
-            'administration/menu/books',
-            'administration/menu/podcasts',
-            'administration/menu/organisation',
-            'administration/menu/organisations',
-            'administration/menu/people',
-            'administration/menu/staff-networks',
-            'administration/menu/media',
-            'administration/menu/recipes',
-            'administration/menu/days-out',
-            'administration/menu/discount-codes',
-            'administration/menu/groups',
-            'administration/menu/events',
-            'administration/menu/ivory-search',
-            'administration/menu/wpforms',
-            'administration/menu/appearance',
-            'administration/menu/themes',
-            'administration/menu/patterns',
-            'administration/menu/customize',
-            'administration/menu/menus',
-            'administration/menu/plugins',
-            'administration/menu/users',
-            'administration/menu/tools',
-            'administration/menu/settings',
-            'administration/menu/secure-custom-fields',
-            'administration/menu/ourspace-platform-settings',
-            'administration/menu/ourspace-settings',
-            'administration/menu/disclaimer-banner',
-            'administration/menu/wp-mail-smtp',
-            'administration/menu/yoast-seo',
-            'administration/menu/wp-optimize',
-            'administration/menu/smush',
-            'administration/menu/page-exclusions'
+            'the-backend/menu/dashboard-menu',
+            'the-backend/menu/analytics',
+            'the-backend/dashboard',
+            'the-backend/menu/pages',
+            'the-backend/menu/fitness',
+            'the-backend/menu/workouts',
+            'the-backend/menu/exercises',
+            'the-backend/menu/gyms',
+            'the-backend/menu/routes',
+            'the-backend/menu/posts',
+            'the-backend/menu/resources',
+            'the-backend/menu/links',
+            'the-backend/menu/books',
+            'the-backend/menu/podcasts',
+            'the-backend/menu/organisation',
+            'the-backend/menu/organisations',
+            'the-backend/menu/people',
+            'the-backend/menu/staff-networks',
+            'the-backend/menu/media',
+            'the-backend/menu/recipes',
+            'the-backend/menu/days-out',
+            'the-backend/menu/discount-codes',
+            'the-backend/menu/groups',
+            'the-backend/menu/events',
+            'the-backend/menu/ivory-search',
+            'the-backend/menu/wpforms',
+            'the-backend/menu/appearance',
+            'the-backend/menu/themes',
+            'the-backend/menu/patterns',
+            'the-backend/menu/customize',
+            'the-backend/menu/menus',
+            'the-backend/menu/plugins',
+            'the-backend/menu/users',
+            'the-backend/menu/tools',
+            'the-backend/menu/settings',
+            'the-backend/menu/secure-custom-fields',
+            'the-backend/menu/ourspace-platform-settings',
+            'the-backend/menu/ourspace-settings',
+            'the-backend/menu/disclaimer-banner',
+            'the-backend/menu/wp-mail-smtp',
+            'the-backend/menu/yoast-seo',
+            'the-backend/menu/wp-optimize',
+            'the-backend/menu/smush',
+            'the-backend/menu/page-exclusions'
+          ]
+        },
+                {
+          type: 'category',
+          label: 'Topic Management',
+          items: [
+            'topics/what-is-a-topic',
+            'topics/creating-topic',
+            'topics/creating-child-topic'
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Content Management',
+          items: [
+            {
+              type: 'category',
+              label: 'Fitness',
+              items: [
+                'the-backend/content-management/workouts',
+                'the-backend/content-management/exercises',
+                'the-backend/content-management/gyms',
+                'the-backend/content-management/routes',
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Resources',
+              items: [
+                'the-backend/content-management/links',
+                'the-backend/content-management/books',
+                'the-backend/content-management/podcasts',
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Organisation',
+              items: [
+                'the-backend/content-management/organisations',
+                'the-backend/content-management/people',
+                'the-backend/content-management/staff-networks',
+              ]
+            },
+            'the-backend/content-management/recipes',
+            'the-backend/content-management/days-out',
+            'the-backend/content-management/discount-codes',
+            'the-backend/content-management/groups',
+            'the-backend/content-management/events',
+          ]
+        },
+        'the-backend/navigation-management',
+        {
+          type: 'category',
+          label: 'User Management',
+          items: [
+            'the-backend/user-management/adding-new-users',
+            'the-backend/user-management/roles'
           ]
         }
       ],

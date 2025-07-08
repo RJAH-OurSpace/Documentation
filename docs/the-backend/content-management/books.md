@@ -17,6 +17,6 @@ The platform has it's own book directory, this lives under the self-help resourc
 
 Once you are happy that all of the information has been completed, scroll back up to the top of the page and click the _Publish_ button which can be found under the _Publish_ section in the right side of the screen.
 
-![alt text](../../images/os-new-topic-publish.jpeg)
+![alt text](../../../images/os-new-topic-publish.jpeg)
 
 Your book should now be visible.

@@ -1,10 +1,12 @@
 ---
-title: Groups
+title: Discount Codes
 ---
 
 * First navigate to the Admin Dashboard of OurSpace if you are not already there.
-* From the navigation menu on the left hand side of the page, select _Events_
-* Click the button _Add new event_ a new screen should appear that looks something like the image below
+* From the navigation menu on the left hand side of the page, select _Discount Codes_
+* Click the button _Add new discount code_ a new screen should appear that looks something like the image below
+
+![alt text](../../../images/os-new-discount-code.jpeg)
 
 |Field Name       | Mandatory | Description
 |-----------------|-----------|------------------------------ |
@@ -21,6 +23,6 @@ title: Groups
 
 Once you are happy that all of the information has been completed, scroll back up to the top of the page and click the _Publish_ button which can be found under the _Publish_ section in the right side of the screen.
 
-![alt text](../../images/os-new-topic-publish.jpeg)
+![alt text](../../../images/os-new-topic-publish.jpeg)
 
 Your event should now be visible on the events page.

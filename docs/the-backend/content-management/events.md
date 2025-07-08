@@ -1,10 +1,20 @@
 ---
-title: Gyms
+title: Events
 ---
+
+The OurSpace platform has a inbuilt event calendar, in this article we will look at how to add a new event to the directory. 
+
+![alt text](../../../images/os-home-events.jpeg)
+
+## Adding a new event
 
 * First navigate to the Admin Dashboard of OurSpace if you are not already there.
 * From the navigation menu on the left hand side of the page, select _Events_
 * Click the button _Add new event_ a new screen should appear that looks something like the image below
+
+![alt text](../../../images/os-new-event.jpeg)
+
+In the events section at the bottom of the screen, fill in the event details
 
 |Field Name       | Mandatory | Description
 |-----------------|-----------|------------------------------ |
@@ -21,6 +31,6 @@ title: Gyms
 
 Once you are happy that all of the information has been completed, scroll back up to the top of the page and click the _Publish_ button which can be found under the _Publish_ section in the right side of the screen.
 
-![alt text](../../images/os-new-topic-publish.jpeg)
+![alt text](../../../images/os-new-topic-publish.jpeg)
 
 Your event should now be visible on the events page.
