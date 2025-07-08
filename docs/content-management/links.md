@@ -2,9 +2,21 @@
 title: Links
 ---
 
+The platform has it's own links directory, this lives under the self-help resources, to add a new entry to the directory follow these steps.
+
 * First navigate to the Admin Dashboard of OurSpace if you are not already there.
-* From the navigation menu on the left hand side of the page, select _Events_
-* Click the button _Add new event_ a new screen should appear that looks something like the image below
+* From the navigation menu on the left hand side of the page, hover over resources and from the menu that appears click _Links_
+* Click the button _Add new link_ a new screen should appear that looks something like the image below
+
+![alt text](../../images/os-new-link.jpeg)
+
+* Add a title for your link in the title box.
+* In the large box add a description about the link.
+* On the right hand side of the screen, select the category that this link should exist under, categories match topic pages as we saw in the [_creating new topic_](docs/topics/creating-topic.md) section this is because links can be shown on topic pages, if you don't select a category, your link will not be visible on the platform.
+
+![alt text](../../images/os-new-categories.jpeg)
+
+* Complete all of the required fields in the Link Settings
 
 |Field Name           | Mandatory | Description
 |---------------------|-----------|------------------------------ |
@@ -16,4 +28,4 @@ Once you are happy that all of the information has been completed, scroll back u
 
 ![alt text](../../images/os-new-topic-publish.jpeg)
 
-Your event should now be visible on the events page.
+Your link should now be visible on the topic page that you select from the categories.
