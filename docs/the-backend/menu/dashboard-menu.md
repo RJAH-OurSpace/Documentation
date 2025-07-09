@@ -47,8 +47,9 @@ Below is a list of all the items you will find in the menu.
 | [OurSpace Platform Settings](ourspace-platform-settings) |                   | This is a top level menu for specific settings relating to the platform
 |			                 | [OurSpace Settings](ourspace-settings) | Not currently in use
 |			 				 | [Disclaimer Banner](disclaimer-banner) | Control the text and more information text and link shown in the disclaimer banner
+|						     | [Disclaimer Exclusions](disclaimer-exclusions)     | Control which pages show the disclaimer banner and which don't
+|						     | [Search Exclusions](search-exclusions)     | Control which pages show the search hero and which don't
 | [WP Mail SMTP](wp-mail-smtp) 				 |                   | Settings relating to mail delivery on the platform
 | [Yoast SEO](yoast-seo)				 |                   | SEO settings are controlled here 
 | [WP-Optimize](wp-optimize) 				 |                   | Optimisation of the platform can be carried out here
 | [Smush](smush) 					 |                   | Image optimisation plugin used to minify images
-| [Page Exclusions](page-exclusions) 			 |                   | Control which pages show the disclaimer banner and which don't
