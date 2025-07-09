@@ -3,24 +3,32 @@ title: Gyms
 ---
 
 * First navigate to the Admin Dashboard of OurSpace if you are not already there.
-* From the navigation menu on the left hand side of the page, select _Events_
-* Click the button _Add new event_ a new screen should appear that looks something like the image below
+* From the navigation menu on the left hand side of the page hover over _Fitness_ and select _All Gyms_ from the menu that appears
+* Click the button _Add new gym_ a new screen should appear that looks something like the image below
+
+![alt text](../../../images/os-new-gym.jpeg)
+
+Add the name of the gym into the title
+
+In the content box you can add a bit about the gym, sometimes the gym has information on it's website which is useful for this area
+
+Once you can completed the above, scroll down to the Gym Settings and complete the fields as required
+
+![alt text](../../../images/os-gym-settings.jpeg)
 
 |Field Name       | Mandatory | Description
 |-----------------|-----------|------------------------------ |
-| Start Date      |  Yes      | The start date of the event   |
-| Start Time      |  Yes      | The start time of the event   |
-| End Date        |  Yes      | The end date of the event     |
-| End Time        |  Yes      | The end time of the event     |
-| Event Location  |  No       | The location that the event will take place at            |
-| Event Organizer |  No       | The organiser of the event            |
-| Event Website   |  No       | The event website where the user can get more information            |
-| Event Type      |  No       | The type of event In Person / Online            |
-| Webinar Link    |  No       | The link to the webinar            |
-| Cover Image     |  No       | The cover image, if available            |
+| Gym URL         |  No       | The website of the gym   |
+| Gym Prices      |  No       | The prices of the gym  |
+| Gym Location    |  No       | The location of the gym    |
+| Opening Times   |  No       | The opening times of the gym     |
+
+Once you have completed the gym settings, on the right hand side of the screen you will see a box titled _Location_ select the location where this gym resides.
+
+![alt text](../../../images/os-gym-location.jpeg)
 
 Once you are happy that all of the information has been completed, scroll back up to the top of the page and click the _Publish_ button which can be found under the _Publish_ section in the right side of the screen.
 
 ![alt text](../../../images/os-new-topic-publish.jpeg)
 
-Your event should now be visible on the events page.
+Your gym should now be visible in the gyms directory.
