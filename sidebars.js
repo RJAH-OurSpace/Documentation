@@ -75,10 +75,21 @@ const sidebars = {
             'the-backend/menu/yoast-seo',
             'the-backend/menu/wp-optimize',
             'the-backend/menu/smush',
-            'the-backend/menu/page-exclusions'
+            'the-backend/menu/search-exclusions',
+            'the-backend/menu/disclaimer-exclusions',
           ]
         },
-                {
+        {
+          type: 'category',
+          label: 'Platform Settings',
+          items: [
+            'the-backend/platform-management/ourspace-settings',
+            'the-backend/platform-management/disclaimer-banner',
+            'the-backend/platform-management/disclaimer-exclusions',
+            'the-backend/platform-management/search-exclusions',
+          ]
+        },
+        {
           type: 'category',
           label: 'Topic Management',
           items: [
