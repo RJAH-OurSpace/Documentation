@@ -3,24 +3,32 @@ title: Routes
 ---
 
 * First navigate to the Admin Dashboard of OurSpace if you are not already there.
-* From the navigation menu on the left hand side of the page, select _Events_
-* Click the button _Add new event_ a new screen should appear that looks something like the image below
+* From the navigation menu on the left hand side of the page hover over _Fitness_ and select _All Routes_ from the menu that appears
+* Click the button _Add new route_ a new screen should appear that looks something like the image below
 
-|Field Name       | Mandatory | Description
-|-----------------|-----------|------------------------------ |
-| Start Date      |  Yes      | The start date of the event   |
-| Start Time      |  Yes      | The start time of the event   |
-| End Date        |  Yes      | The end date of the event     |
-| End Time        |  Yes      | The end time of the event     |
-| Event Location  |  No       | The location that the event will take place at            |
-| Event Organizer |  No       | The organiser of the event            |
-| Event Website   |  No       | The event website where the user can get more information            |
-| Event Type      |  No       | The type of event In Person / Online            |
-| Webinar Link    |  No       | The link to the webinar            |
-| Cover Image     |  No       | The cover image, if available            |
+![alt text](../../../images/os-new-route.jpeg)
+
+|Field Name                      | Mandatory | Description												  | Condition
+|--------------------------------|-----------|----------------------------------------------------------- | ------------
+| Is this route from all trails  |  No       | Is this route taken from AllTrails                         |
+| Route Direction URL            |  No       | The embed link for the route directions                    | Displayed if _Is this route from all trails_ is checked
+| Route External Site            |  No       | The link to the route details on AllTrails                 | Displayed if _Is this route from all trails_ is checked
+| Total Length                   |  No       | Total length of the route                                  |
+| Estimated Completion Time      |  No       | Estimated time to complete the route                       |
+| Route Directions               |  No       | Detailed directions of the route                           |
+
+Scroll back to the top of the page and on the right hand side you will see some additional options
+
+Route difficulty, this is how difficult the route is expected to be
+
+![alt text](../../../images/os-route-difficulty.jpeg)
+
+The route length, this can be used for running routes, to give runners an idea of how long the route is
+
+![alt text](../../../images/os-route-length.jpeg)
 
 Once you are happy that all of the information has been completed, scroll back up to the top of the page and click the _Publish_ button which can be found under the _Publish_ section in the right side of the screen.
 
 ![alt text](../../../images/os-new-topic-publish.jpeg)
 
-Your event should now be visible on the events page.
+Your route should now be visible on the routes page.
